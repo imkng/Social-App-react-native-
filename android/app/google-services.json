@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "812967930263",
+    "project_id": "knsocialapp",
+    "storage_bucket": "knsocialapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812967930263:android:2e3e3af913a7714d7b3cd2",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812967930263-4sh0b32m3hdnvcdm9uojj1ucohjbpqis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awesomeproject",
+            "certificate_hash": "4b1717035e1516b8ba9c44b762814285e9c5bfa0"
+          }
+        },
+        {
+          "client_id": "812967930263-sc3qnomtmuufkq5mi6ekhkt20q2gt71n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoSr-0MtTn-r-EFdZRFQTDedKdUltKfYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812967930263-sc3qnomtmuufkq5mi6ekhkt20q2gt71n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
