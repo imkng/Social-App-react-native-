@@ -8,6 +8,7 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 import HomeScreen from '../screens/HomeScreen';
 import AddPostScreen from '../screens/AddPostScreen';
+import ProfileScreen from '../screens/ProfileScreen';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -60,7 +61,7 @@ const FeedStack = ({ navigation }) => (
         ),
       }}
     />
-    {/* <Stack.Screen
+    <Stack.Screen
       name="HomeProfile"
       component={ProfileScreen}
       options={{
@@ -78,7 +79,7 @@ const FeedStack = ({ navigation }) => (
           </View>
         ),
       }}
-    />  */}
+    />
   </Stack.Navigator>
 );
 
