@@ -1,18 +1,3 @@
-// import React from 'react'
-// import { StyleSheet, Text, View } from 'react-native'
-
-// const LoginScreen = () => {
-//     return (
-//         <View>
-//             <Text>LoginScreen</Text>
-//         </View>
-//     )
-// }
-
-// export default LoginScreen
-
-// const styles = StyleSheet.create({})
-
 import React, { useContext, useState } from 'react';
 import {
     View,
@@ -40,7 +25,7 @@ const LoginScreen = ({ navigation }) => {
                 source={require('../assets/img4.png')}
                 style={styles.logo}
             />
-            <Text style={styles.text}>KN Social App</Text>
+            <Text style={styles.text}>Social Media App</Text>
 
             <FormInput
                 labelValue={email}

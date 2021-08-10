@@ -3,13 +3,12 @@ import { View } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import SignupScreen from '../screens/SignupScreen';
 import LoginScreen from '../screens/LoginScreen';
-import OnBoardingScreen from '../screens/OnBoardingScreen';
+import OnboardingScreen from '../screens/OnBoardingScreen';
 
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
-
 
 const Stack = createStackNavigator();
 
@@ -45,7 +44,7 @@ const AuthStack = () => {
         <Stack.Navigator initialRouteName={routeName}>
             <Stack.Screen
                 name="Onboarding"
-                component={OnBoardingScreen}
+                component={OnboardingScreen}
                 options={{ header: () => null }}
             />
             <Stack.Screen
@@ -81,3 +80,4 @@ const AuthStack = () => {
 };
 
 export default AuthStack;
+
